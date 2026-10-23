@@ -62,7 +62,7 @@ export function Hero() {
       // Breathing aura behind the title.
       gsap.to(".hero-aura", {
         scale: 1.08,
-        opacity: 0.5,
+        opacity: 0.38,
         duration: 3.6,
         yoyo: true,
         repeat: -1,
