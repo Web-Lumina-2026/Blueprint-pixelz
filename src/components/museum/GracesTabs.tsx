@@ -125,7 +125,7 @@ export function GracesTabs() {
           ref={textRef}
           className="mt-12 max-w-md text-sm leading-7 text-muted-foreground"
         >
-          {GRACES[active].text}
+          {GRACES[active]?.text ?? ""}
         </p>
 
         <a

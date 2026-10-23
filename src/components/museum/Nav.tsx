@@ -29,6 +29,7 @@ export function Nav() {
     if (!bar || !list) return;
     const links = Array.from(list.querySelectorAll<HTMLAnchorElement>("a"));
     const active = links[0];
+    if (!active) return;
 
     const moveTo = (el: HTMLElement, fade = false) => {
       gsap.to(bar, {
