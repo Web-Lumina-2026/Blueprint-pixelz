@@ -108,7 +108,7 @@ export function Hero() {
 
       <div
         aria-hidden="true"
-        className="hero-aura absolute bottom-24 left-1/2 h-72 w-[42rem] max-w-[90vw] -translate-x-1/2 rounded-full opacity-40 blur-3xl"
+        className="hero-aura absolute bottom-24 left-1/2 h-72 w-[42rem] max-w-[90vw] -translate-x-1/2 rounded-full opacity-25 blur-3xl"
         style={{
           background:
             "radial-gradient(closest-side, var(--aura), transparent 70%)",
