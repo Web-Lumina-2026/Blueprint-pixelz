@@ -2,17 +2,6 @@ import { useRef } from "react";
 import { gsap, useGSAP } from "@/lib/gsap";
 import darkMap from "@/assets/museum/dark-map.jpg";
 
-const HOURS = [
-  ["10:00 — 18:00", ""],
-  ["Wednesday: Closed", ""],
-] as const;
-
-const ADMISSION = [
-  ["Adults: 12$", ""],
-  ["Special: 5$", ""],
-  ["Kids: Free", ""],
-] as const;
-
 /** Visit block — navy info panel beside the night map, per the reference. */
 export function VisitSection() {
   const rootRef = useRef<HTMLElement>(null);
